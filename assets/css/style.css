@@ -1,0 +1,157 @@
+/* This applies box sizing to all elements, resets padding and margin */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Sets background colour for webpage + moved font family to body section */
+body {
+    background-color: #d9dcd6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styling for header section */
+header {
+    padding: 20px;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Styling for main header, includes the SEO section */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Style for SEO section inside of main heading 'seo' change color purposefully to stand out in heading */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Changed all header div sections to nav (navigation links) */
+nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Style for list items in navigation */
+nav ul li {
+    display:inline;
+    margin-left: 25px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Changed from .content to main to represent the main content in document */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Added styles for services section */
+.service-section{
+margin-bottom: 20px;
+padding: 50px;
+height: 300px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: #0072bb;
+color: #ffffff;
+}
+
+/* Style for images inside service section */
+.service-section img{
+    max-height:100%;
+}
+
+/* Style for headings in each service section */
+.service-section h2{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+/* Increase font size of wording in service section boxes */
+.service-section p{
+font-size: 150%;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+
+/* Changed style for benefits block */
+.benefits div {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits div h3 {
+    margin-bottom: 32px;
+    color: #ffffff;
+    font-size: 150%;
+}
+
+.benefits p{
+    font-size: 125%;
+}
+
+/* Defined image sizes for benefits section */
+.benefits div img{
+    display: block;
+    margin: 10px auto;
+    max-width: 180px;
+    max-height: 180px;
+}
+
+
+/* Made footer class on HTML and specified footer styling */
+.footer {
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    padding: 20px;
+}
+
+.footer h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer p{
+    font-size: 14px;
+    text-align: left;
+}
+
+/* This is the colour for all miscellaneous text including header text */
+a{
+    color: #ffffff;
+}
